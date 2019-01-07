@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    @objc func incrementCount() {
+    @IBAction func incrementCount() {
         self.count += 1
         self.label.text = "\(self.count)"
     }
